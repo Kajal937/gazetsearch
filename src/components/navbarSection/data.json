@@ -1,0 +1,21 @@
+{
+  "menu": [
+    {
+      "key": 1,
+      "name": "Home",
+      "path": "/"
+    },
+    {
+      "key": 2,
+      "name": "Gallery",
+      "path": "/gallery"
+    }
+  ],
+  "dropDownMenu": [
+    {
+      "key": 1,
+      "name": "Your Blogs",
+      "path": "/your-blogs"
+    }
+  ]
+}

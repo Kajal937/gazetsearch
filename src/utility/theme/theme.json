@@ -1,0 +1,11 @@
+{
+  "logo": "blob:http://localhost:3000/7f5f8703-6708-469c-80e8-9faa9e5ac481",
+  "headerColor": "#E8B320",
+  "footerColor": "#E8B320",
+  "buttonColor": "#FFFFFF",
+  "textPrimaryColor": "black",
+  "textSecondaryColor": "black",
+  "backgroundPrimaryColor": "#fafafa",
+  "backgroundSecondaryColor": "#FFFFFF",
+  "backgroundThirdColor": "e6cd9350"
+}

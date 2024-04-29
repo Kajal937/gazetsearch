@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/components/phoneRepair/index.jsx", "src/pages/admin/[slug].jsx", "src/components/getInTouch/index.jsx", "src/components/phoneRepair/RepairCard.tsx", "src/pages/server-sitemap.xml/index.js", "src/pages/repair/[slug]/index.jsx", "src/components/navbarSection/draverNav.jsx"],
+  "exclude": ["node_modules"]
+}

@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.filter_links {
+  margin-top: 18px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.filter_links ul {
+  position: relative;
+  overflow-x: auto;
+  list-style: none;
+  display: flex;
+  background: #1f1f1f;
+  border-radius: 12px;
+}
+
+.active_box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateX(0px);
+  z-index: 1;
+  width: 120px;
+  height: 100%;
+  background: crimson;
+  border-radius: 12px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.filter_links ul li {
+  width: 120px;
+  z-index: 2;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 8px 0px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.filter_image_container {
+  margin-top: 12px;
+  // padding-inline: 20px;
+  max-width: 100%;
+  column-count: 3;
+  column-gap: 16px;
+}
+
+.filter_image_container img {
+  transition: width 0.3s height 0.4s ease-out;
+  width: 100%;
+  // padding: 10px;
+  // padding: 4px;
+  border-radius: 4px;
+}
+
+.image_box {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.5s ease;
+}
+
+.hide_image {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .filter_links {
+    padding-block: 12px;
+    margin-top: 18px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .filter_image_container {
+    margin-top: 12px;
+    // padding-inline: 16px;
+    max-width: 100%;
+    column-count: 2;
+    column-gap: 16px;
+  }
+  .active_box {
+    width: 70px;
+  }
+
+  .filter_links ul li {
+    width: 70px;
+    padding: 6px 0px;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 500;
+  }
+}
+
+@media screen and (max-width:567px) {
+  .filter_image_container {
+    column-count: 1;
+    column-gap: 0px;
+  }
+}
+
+@media screen and (max-width: 368px) {
+  .filter_image_container {
+    margin-top: 12px;
+    // padding-inline: 20px;
+    max-width: 100%;
+    column-count: 1;
+    column-gap: 0px;
+  }
+  .filter_links {
+    padding-block: 12px;
+    margin-top: 18px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}

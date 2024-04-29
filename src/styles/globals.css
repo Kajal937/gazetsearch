@@ -1,0 +1,286 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* max-width: 1080px; */
+  /* margin: auto; */
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* --foreground-rgb: 255, 255, 255; */
+    /* --background-start-rgb: 0, 0, 0; */
+    /* --background-end-rgb: 0, 0, 0; */
+  }
+}
+
+body {
+  /* max-width: 1080px; */
+  margin: auto;
+  color: rgb(var(--foreground-rgb));
+  background-color: #EDEDED !important;
+  /* background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb)); */
+  /* background: #fff !important; */
+}
+
+#__next {
+  display: flex !important;
+  flex-direction: column !important;
+  height: 100vh !important;
+  margin-bottom: 114px !important;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 45px !important;
+  color: #0c0b0b !important;
+}
+
+@media screen and (max-width: 480px) {
+  .slick-next {
+    right: 36px !important;
+  }
+  .slick-prev {
+    left: 9px !important;
+  }
+  .phone-repair-mobile-screen {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .mobile_screen_hr_gap {
+    padding: 0 16px !important;
+  }
+}
+/* userdetails-scroll  */
+.userdetails-scroll::-webkit-scrollbar {
+  width: 3px !important;
+  height: 2px !important;
+}
+
+/* Handle */
+.userdetails-scroll::-webkit-scrollbar-thumb {
+  background: #cfcecea9;
+}
+
+.chakra-stepper [data-status="complete"] .chakra-step__indicator {
+  background-color: #fd7f34 !important;
+}
+
+.chakra-stepper [data-status="active"] .chakra-step__indicator {
+  border-color: #fd7f34 !important;
+}
+
+.chakra-stepper [data-status="complete"] .chakra-step__separator {
+  background-color: #fd7f34 !important;
+}
+
+.css-6su6fj {
+  width: 100% !important;
+  height: 130px !important;
+}
+
+
+/*range slider */
+.css-1skikcm, .css-79wky ,.css-1lqqkr0 {
+  background: #8d53ff !important;
+}
+.css-79wky {
+  position: unset !important;
+  /* top: -20px !important; */
+  border-radius: 2px !important;
+  padding: 0px 4px !important;
+  font-size: 12px !important;
+}
+
+.css-wboz3e {
+  background: white !important;
+}
+.css-1lqqkr0 {
+  width: 10px !important;
+  height: 12px !important;
+  /* top: -1% !important; */
+}
+.css-1skikcm  {
+  height: 5px !important;
+}
+.css-wboz3e {
+  height: 4px !important;
+}
+.css-919ppc {
+  padding-top: 16px !important;
+}
+
+.css-wboz3e  {
+  /* top: 48% !important; */
+}
+.css-1skikcm  {
+  /* top: 48% !important; */
+}
+.css-1hb5ode {
+  padding-top: 14px !important;
+}
+
+
+/* table scroll list  css*/
+.table-scroll-list::-webkit-scrollbar {
+  height: 4px !important;
+  width: 3px !important;
+}
+/* Handle */
+.table-scroll-list::-webkit-scrollbar-thumb {
+  background: #cdcdcd;
+  border-radius: 75px;
+}
+/* tab scroll list  css*/
+.tab-scroll-list::-webkit-scrollbar {
+  height: 1px !important;
+  width: 3px !important;
+}
+/* Handle */
+.tab-scroll-list::-webkit-scrollbar-thumb {
+  background: #cdcdcd;
+  border-radius: 75px;
+}
+
+  /* pagination css */
+  .css-1f8fa52,
+.css-1rfl9un,
+.chakra-stack .css-1khcmz8 .chakra-icon,
+.chakra-stack .css-1rfl9un {
+  color: var(--text-color) !important;
+}
+.css-1igwmid .css-1khcmz8:hover .css-onkibi {
+  color: #e8b320 !important;
+}
+  
+
+/* ..................... */
+.markdown_css h1 {
+  font-size: 26px !important;
+  font-weight: 700 !important;
+}
+.markdown_css h2 {
+  font-size: 24px !important;
+  font-weight: 700 !important;
+}
+.markdown_css h3 {
+  font-size: 22px !important;
+  font-weight: 700 !important;
+}
+.markdown_css h4 {
+  font-size: 20px !important;
+  font-weight: 700 !important;
+}
+.markdown_css h5 {
+  font-size: 18px !important;
+  font-weight: 700 !important;
+}
+.markdown_css h6 {
+  font-size: 16px !important;
+  font-weight: 700 !important;
+}
+
+.markdown_css code {
+  background: none repeat scroll 0 0 rgba(102,128,153,.05) !important;
+  font-size: 14px !important;
+  border-radius: 0 !important;
+  overflow-x: auto !important;
+}
+
+.markdown_css pre {
+  background: 0 0 rgba(102,128,153,.05) !important;
+  font-size: 14px !important;
+  border-radius: 0 !important;
+  overflow-x: auto !important;
+  margin: 18px 0 !important;
+}
+
+.markdown_css blockquote {
+  position: relative !important;
+    margin: 16px 0 !important;
+    padding: 5px 8px 5px 30px !important;
+    background: none repeat scroll 0 0 rgba(102,128,153,.05) !important;
+    color: #333 !important;
+    border: none !important;
+    border-left: 10px solid #d6dbdf !important;
+}
+
+.markdown_css ul  {
+  list-style:unset !important;
+  padding-left: 14px !important;
+  margin: 18px 0 !important;
+}
+
+.markdown_css ol {
+  list-style: auto !important;
+  padding-left: 16px !important;
+  margin: 18px 0 !important;
+}
+
+.markdown_css table {
+  border-collapse: collapse !important;
+}
+
+.markdown_css img {
+  width: 100% !important;
+  margin: 18px 0 !important;
+  border-radius: 4px !important;
+}
+
+.markdown_css p {
+  margin: 10px 0 !important;
+}
+
+.markdown_css table{
+  margin: 22px 0 !important;
+  width: 100% !important;
+  border: 0.1px solid #c5c2c2 !important;
+  border-collapse: separate !important;
+}
+
+.markdown_css table th{
+  background-color:#aaa7a7 !important;
+}
+
+.markdown_css  a {
+  color: blue !important;
+}
+
+.markdown_css table td {
+  text-align: center;
+}
+.markdown_css table tbody tr:nth-child(even) {background-color: #d0cfcf;}
+
+.markdown_css table td, th {
+  /* border: 1px solid !important; */
+  padding: 10px !important;
+}
+
+.button-type-underline , .button-type-wrap{
+  display: none !important;
+}
+
+.mobile_screen_lr_p {
+  max-width: 1280px !important;
+  width: 100% !important;
+}
+
+@media screen and (max-width: 1280px) {
+
+  .mobile_screen_lr_p,
+  .chakra-modal__content-container {
+    padding: 0 16px !important;
+  }
+}

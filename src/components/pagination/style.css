@@ -1,0 +1,31 @@
+.pagination_container .css-nei6wd {
+  padding: 8px 0 !important;
+  margin-left: auto !important;
+}
+
+.pagination_container .chakra-button {
+  min-width: 30px !important;
+  /* width: 30px; */
+  height: 30px !important;
+  box-shadow: none !important;
+  font-size: 14px !important;
+  padding: 0 !important;
+}
+/* ..... */
+select[name="category"]:focus-visible,
+select[name="subCategory"]:focus-visible,
+select[name="unit"]:focus-visible {
+  border-color: #8d53ff !important;
+  box-shadow: none !important;
+}
+
+.pagination_container .chakra-stack .css-hpky6u {
+  background: #0277B5 !important;
+}
+
+.pagination_container .chakra-stack .chakra-button{
+  border-color: #0277B5 !important;
+}
+.pagination_container .chakra-stack .chakra-button:active{
+  border-color: #8d53ff !important;
+}

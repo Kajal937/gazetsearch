@@ -1,0 +1,220 @@
+.popupBoxHelp .chakra-popover__popper,
+.css-1qq679y {
+  transform: translate(-8px, -111px) !important;
+  height: 488px !important;
+}
+
+.help-chet-modal-body {
+  .chakra-checkbox__control {
+    border-radius: 50% !important;
+  }
+}
+
+// .scaling-animation {
+//   transition: transform 1s ease-in-out ; /* Animation duration */
+//   animation: scaleButton 1s infinite; 
+
+// }
+// .scaling-animation:hover {
+//   animation-play-state: paused;
+// }
+
+/* Keyframe animation */
+// @keyframes scaleButton {
+//   0% {
+//     transform: scale(1);
+//     /* Initial size */
+//   }
+
+//   50% {
+//     transform: scale(1.2);
+//     /* Scaled size */
+//   }
+
+//   100% {
+//     transform: scale(1);
+//     /* Return to original size */
+//   }
+// }
+
+
+// // ..
+// .scaling-animation{
+//   position: relative !important;
+// }
+// .scaling-animation::before {
+//   content: "";
+//   position: absolute !important;
+//   top: -11px;
+//   left: -7px;
+//   right:0;
+//   bottom: 0;
+//   height: 72px;
+//   width: 72px;
+//   z-index: -1;
+//   border-radius: 50%;
+//   background:rgba(77, 124, 222, 0.3);
+//   animation: scaleButton 1.1s infinite; 
+
+// }
+
+// .scaling-animation::after {
+//   content: "";
+//   position: absolute !important;
+//   height: 82px;
+//   width: 83px;
+//   top: -16px;
+//   left: -12px;
+//   right:0;
+//   bottom: 0;
+//   z-index:-2;
+//   border-radius: 50%;
+//   background: rgba(77, 124, 222, 0.3);
+//   // background: green !important;
+//   animation: scaleButton 1.7s infinite; 
+//   // animation: ripple 3s infinite;
+// }
+
+
+// .scaling-animation {
+//   position: relative !important;
+// }
+
+// .scaling-animation::before {
+//   content: "";
+//   position: absolute !important;
+//   top: -16px;
+//   left: -13px;
+//   right: 0;
+//   bottom: 0;
+//   height: 82px;
+//   width: 82px;
+//   z-index: -1;
+//   border-radius: 50%;
+//   background: rgba(77, 124, 222, 0.3);
+//   animation: scaleCircle 7.5s ease-in-out infinite;
+// }
+
+// .scaling-animation::after {
+//   content: "";
+//   position: absolute !important;
+//   height: 82px;
+//   width: 82px;
+//   top: -16px;
+//   left: -12px;
+//   right: 0;
+//   bottom: 0;
+//   z-index: -2;
+//   border-radius: 50%;
+//   background: rgba(77, 124, 222, 0.3);
+//   animation-duration: 2s;
+//   // animation: scaleButtonAfter 1.6s infinite;
+//   animation: scaleCircle 5.6s ease-in-out infinite 2.5s;
+// }
+
+@keyframes scaleCircle {
+  0% {
+    transform: scale(0);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  // 80% {
+  //   transform: scale(1);
+  // }
+
+  100% {
+    transform: scale(1);
+  }
+}
+// .....
+.container {
+  position: relative;
+  display: block;
+  width: 80px;
+  margin: 60px auto;
+  
+ .delay1 {
+    animation: waves 2.5s linear infinite;
+    animation-delay: .1s;
+  }
+  
+   .delay2 {
+    animation: waves 2.5s linear .7s infinite,
+  }
+  
+   .delay3 {
+    animation: waves 2.5s linear 1.3s infinite;
+  }
+  
+   .delay4 {
+    animation: waves 2.5s linear 1.9s infinite;
+  }
+}
+
+
+.circle {
+  display: block;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  // background: #0194c7;
+  background: #e8b320;
+  margin: 10px;
+  transition: 5s ease;
+  position: absolute;
+  top: 0px
+}
+
+@keyframes waves {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  
+  100% {
+    transform: scale(4);
+    opacity: 0;
+  }
+}
+
+.svg-box {
+  position: relative;
+  z-index: 10;
+}
+
+.svg-box:hover {
+  animation: bloop 1s linear;
+}
+
+// @keyframes bloop {
+//   0% {
+//     transform: scale3d(1, 1, 1);
+//   }
+
+//   30% {
+//     transform: scale3d(1.25, 0.75, 1);
+//   }
+
+//   40% {
+//     transform: scale3d(0.75, 1.25, 1);
+//   }
+
+//   50% {
+//     transform: scale3d(1.15, 0.85, 1);
+//   }
+
+//   65% {
+//     transform: scale3d(.95, 1.05, 1);
+//   }
+
+//   75% {
+//     transform: scale3d(1.05, .95, 1);
+//   }
+
+//   100% {
+//     transform: scale3d(1, 1, 1);
+//   }
+// }
